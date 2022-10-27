@@ -1,0 +1,11 @@
+.letter {
+  transition: opacity .3s ease;
+}
+
+.letter:not([active]) {
+  opacity: 0;
+}
+
+.letter[active] {
+  opacity: 1;
+}
